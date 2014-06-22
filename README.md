@@ -1,6 +1,5 @@
-<iframe src="//player.vimeo.com/video/98871620?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
 <a href="https://vimeo.com/98871620">Watch the teaser on Vimeo</a>
+<br />
 
 ![Peek](peek.png)
 
