@@ -1,9 +1,11 @@
-<img src="peek512.png" style="margin-right: 20px; float:left; width:128px; height: 128px" />
+<iframe src="//player.vimeo.com/video/98871620?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<a href="https://vimeo.com/98871620">Watch the teaser on Vimeo</a>
+
+![Peek](peek.png)
 
 #Peek
-##for iOS
 
-<div style="clear:both; margin-bottom: 20px"></div>
 
 Introducing Peek, a tool to help your designers and testers get pixel perfect results when reviewing your User Interface.
 
@@ -29,7 +31,9 @@ Peek can be used by designers and testers, allowing developers to spend more tim
 Peek is a CocoaPod, so just include it in your Podfile and you're good to go. 
 Not a single line of code is required to get started ;)
 
-`pod 'Peek'`
+```objc
+pod 'Peek'
+```
 
 Alternatively you can simply drag the files into your project and run! 
 Again, no code is required to get started ;)
@@ -42,7 +46,7 @@ After you've installed the codebase (either via CocoaPods or simply dragging Pee
 
 If you're running in the simulator however, the volume controls are not available, so Peek defaults to a shake gesture. You will need to write one method in your AppDelegate:
 
-```` 
+````objc
 - (void)motionBegan:(UIEventSubtype)motion withEvent:(UIEvent *)event
 {
   [[SPXPeek sharedInstance] handleShakeGesture];
@@ -91,7 +95,7 @@ To disable a filter, you can do this within your app. While Peek is enabled, swi
 
 This is useful for on-demand filtering, however you may want to enable this type of view by default. To do this there is a convenience macro, You will need to write 1 line of code:
 
-```
+```objc
 PeekFilterAdd(name, Class, block);
 ```
 
