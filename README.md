@@ -3,6 +3,7 @@
 <a href="http://shaps.me/Peek">Designer? Read about Peek on my site</a>
 <br />
 
+<img src="peek.png" width="128" height="128" />
 ![Peek 50%](peek.png)
 
 #Peek
