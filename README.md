@@ -31,9 +31,7 @@ Peek can be used by designers and testers, allowing developers to spend more tim
 Peek is a CocoaPod, so just include it in your Podfile and you're good to go. 
 Not a single line of code is required to get started ;)
 
-```objc
-pod 'Peek'
-```
+`pod 'Peek'`
 
 Alternatively you can simply drag the files into your project and run! 
 Again, no code is required to get started ;)
@@ -87,19 +85,19 @@ The easiest way to learn how to add your own items to the store is to checkout `
 
 Here you can see that adding these items is a single line of code each ;)
 
+```objc
+PeekPropertyAdd(name, Class, keyPath);
+PeekRepresentationAdd(name, Class, keyPath);
+PeekFilterAdd(name, Class, block);
+```
+
 ####Peek is hiding some views that I've customised. Can I prevent that?
 
 Peek has a robust filtering system based on filter sets and their associated filters. Peek comes with a few defaults to provide fairly comprehensive filtering out-of-the-box. These filters should apply to 99% of cases, however there could certainly be cases where you need to disable a filter that's currently applied, or even remove it completely.
 
 To disable a filter, you can do this within your app. While Peek is enabled, swipe-down with 2 fingers to display Peek's filtering options. Tap on Global Filters. Then simply locate the filter and tap on it to disable it. The checkmark icon indicates if the filter is being applied or not. Now when you return to Peek you will have access to the view.
 
-This is useful for on-demand filtering, however you may want to enable this type of view by default. To do this there is a convenience macro, You will need to write 1 line of code:
-
-```objc
-PeekFilterAdd(name, Class, block);
-```
-
-Where the name is a unique name for this filter, the class is the object class you want to apply this filter to and the block is the block to be executed when evaluating this filter. 
+This is useful for on-demand filtering, however you may want to enable this type of view by default. To do this use the code above.
 
 By default, filtering is implicit. In order to show a view you must explicitly apply a filter for it. The first filter to return YES for a specified view wins. No more evaluation occurs. 
 
