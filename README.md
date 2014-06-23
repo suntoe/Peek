@@ -1,7 +1,7 @@
 <a href="https://vimeo.com/98871620">Watch the teaser on Vimeo</a>
 <br />
-<a href="http://shaps.me/Peek">Designer? Read about Peek on my site</a>
-<br />
+<a href="http://shaps.me/Peek">http://shaps.me/Peek</a>
+<br /><br />
 
 <img src="peek256.png" width="128px" height="128px" />
 
