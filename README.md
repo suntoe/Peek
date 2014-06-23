@@ -1,7 +1,6 @@
 <a href="https://vimeo.com/98871620">Watch the teaser on Vimeo</a>
 <br />
-<a href="http://shaps.me/Peek">http://shaps.me/Peek</a>
-<br /><br />
+<br />
 
 <img src="peek256.png" width="128px" height="128px" />
 
@@ -103,9 +102,10 @@ This is useful for on-demand filtering, however you may want to enable this type
 By default, filtering is implicit. In order to show a view you must explicitly apply a filter for it. The first filter to return YES for a specified view wins. No more evaluation occurs. 
 
 
-####Attribution
+####Links
 
-Original concept, code and app design by [@shaps][shaps]
+Read more on <a href="http://shaps.me/Peek">http://shaps.me/Peek</a>
+<br />Original concept, code and app design by [@shaps][shaps]
 <br />Filtering concept was inspired by some ideas from [Lee Atkinson][lee]
 <br />Icon design by [@h1brd][marco]
 
