@@ -109,9 +109,12 @@ Read more on <a href="http://shaps.me/Peek">http://shaps.me/Peek</a>
 <br />Filtering concept was inspired by some ideas from [Lee Atkinson][lee]
 <br />Icon design by [@h1brd][marco]
 
+<br /><br />[The App Business][tab], thanks for the support guys.
+
 
 
 [docs]: http://no_docs_url_yet
 [shaps]: http://twitter.com/shaps "Shaps on Twitter"
 [marco]: http://twitter.com/h1brd "Marco on Twitter"
 [lee]: http://twitter.com/lee "Lee on Twitter"
+[tab]: http://theappbusiness.com
