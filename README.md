@@ -109,7 +109,7 @@ Read more on <a href="http://shaps.me/Peek">http://shaps.me/Peek</a>
 <br />Filtering concept was inspired by some ideas from [Lee Atkinson][lee]
 <br />Icon design by [@h1brd][marco]
 
-<br /><br />[The App Business][tab], thanks for the support guys.
+[The App Business][tab], thanks for the support guys.
 
 
 
