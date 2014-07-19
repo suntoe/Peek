@@ -106,7 +106,6 @@ By default, filtering is implicit. In order to show a view you must explicitly a
 
 Read more on <a href="http://shaps.me/Peek">http://shaps.me/Peek</a>
 <br />Original concept, code and app design by [@shaps][shaps]
-<br />Filtering concept was inspired by some ideas from [Lee Atkinson][lee]
 <br />Icon design by [@h1brd][marco]
 
 [The App Business][tab], thanks for the support guys.
