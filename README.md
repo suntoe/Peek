@@ -116,5 +116,4 @@ Read more on <a href="http://shaps.me/Peek">http://shaps.me/Peek</a>
 [docs]: http://no_docs_url_yet
 [shaps]: http://twitter.com/shaps "Shaps on Twitter"
 [marco]: http://twitter.com/h1brd "Marco on Twitter"
-[lee]: http://twitter.com/lee "Lee on Twitter"
 [tab]: http://theappbusiness.com
