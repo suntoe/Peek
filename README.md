@@ -94,11 +94,11 @@ Peek comes pre-packed with various gestures for presenting more information abou
 
 __Tap__ and/or __drag__ around the screen to highlight the views in your user interface.
 
-__Swipe up with 2 fingers__ to hide the currently selected view. This is especially useful if that view is obscuring some other views you care about. Hiding views is on a per-session basis, so closing and reopening Peek resets all hidden views.
+__Swipe up__ with __2 fingers__ to hide the currently selected view. This is especially useful if that view is obscuring some other views you care about. Hiding views is on a per-session basis, so closing and reopening Peek resets all hidden views.
 
 __Double-tap__ anywhere on the screen to present contextual information about the currently selected view. For example, a label will show information such as `font` and `textColor`, whereas an image might show information about its `size` or `contentMode`.
 
-__Swipe-down with 2 fingers__ in Peek to display more Peek options. Here you will see all the contexts you have included in your version of Peek and you can switch between them to focus on a specific task. By default Peek comes with the following contexts:
+__Swipe-down__ with __2 fingers__ in Peek to display more Peek options. Here you will see all the contexts you have included in your version of Peek and you can switch between them to focus on a specific task. By default Peek comes with the following contexts:
 
 1. Show Layout Information
 2. Filter by Font
