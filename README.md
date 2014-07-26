@@ -137,7 +137,7 @@ __Static configurations__
 ```smalltalk
 peekAddProperty(name, class, keyPath)
 peekAddRepresentation(name, class, keyPath)
-peekAddContext(name, overlayClass, ...) /*the last attribute being a list of filters*/
+peekAddContext(name, overlayClass, ...) /* last attribute being a list of filters*/
 ```
 
 __Dynamic Configurations__
