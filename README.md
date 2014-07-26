@@ -134,19 +134,23 @@ Peek even provides convenient macros and functions to make it even easier to con
 
 __Static configurations__
 
-```objective-c
+```smalltalk
+
 peekAddProperty(name, class, keyPath);
 peekAddRepresentation(name, class, keyPath);
-peekAddContext(name, overlayClass, ...); // the last attribute being a list of filters
+peekAddContext(name, overlayClass, ...); /* the last attribute being a list of filters */
+
 ```
 
 __Dynamic Configurations__
 
 ```smalltalk
+
 peekAddContextWithBlock(name, overlayClass, dynamicFiltersBlock)
 peekAddFilterWithBlock(name, evaluationBlock);
 peekAddRepresentationWithBlock(name, class, valueForRepresentationBlock)
 peekSetCellClassWithBlock(cellClass, objectClass, configureCellBlock);
+
 ```
 
 ####Links
