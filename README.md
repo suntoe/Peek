@@ -22,7 +22,7 @@ Introducing Peek, a tool to help your designers and testers get pixel perfect re
 
 ### Table of Contents
 
-**[What is Peek?](#what-is-peek)**  
+**[What is Peek?](#what-is-peek)**    
 **[Why use Peek](#why-use-peek)** 
 **[How do I install Peek?](#how-do-i-install-peek)**  
 **[How do I present Peek?](#how-do-i-present-peek)**  
@@ -65,12 +65,12 @@ After you've installed the codebase (either via CocoaPods or simply dragging Pee
 
 If you're running in the simulator however, the volume controls are not available, so Peek defaults to a shake gesture. You will need to write one method in your AppDelegate:
 
-````objc
+```smalltalk
 - (void)motionBegan:(UIEventSubtype)motion withEvent:(UIEvent *)event
 {
   [[SPXPeek sharedInstance] handleShakeGesture];
 }
-````
+```
 
 *Note: Although this code is only _required_ if using the Simulator, you will also need to implement this method if you set Peek's `presentationGesture` property to `SPXPeekPresentationGestureShake`
 
@@ -130,12 +130,23 @@ Contexts rely on filters to decide what content it should present. However, filt
 
 Customizing Peek couldn't be simpler, in fact if you checkout `SPXPeekConfigurations` you'll have all the documenation you'll need to get started, since this is where the defaults are created ;)
 
-Peek even provides convenient macro's to make it even easier to configure:
+Peek even provides convenient macros and functions to make it even easier to configure (in fact these are the recommended way of setting up Peek):
 
-```objc
+__Static configurations__
+
+```smalltalk
 peekAddProperty(name, class, keyPath);
 peekAddRepresentation(name, class, keyPath);
 peekAddContext(name, overlayClass, ...); // the last attribute being a list of filters
+```
+
+__Dynamic Configurations__
+
+```smalltalk
+peekAddContextWithBlock(name, overlayClass, dynamicFiltersBlock)
+peekAddFilterWithBlock(name, evaluationBlock);
+peekAddRepresentationWithBlock(name, class, valueForRepresentationBlock)
+peekSetCellClassWithBlock(cellClass, objectClass, configureCellBlock);
 ```
 
 ####Links
