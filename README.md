@@ -29,7 +29,7 @@ Introducing Peek, a tool to help your designers and testers get pixel perfect re
 **[How does Peek work?](#how-does-peek-work)**  
 **[How do I see more information from Peek](#how-do-i-see-more-information-from-peek)**  
 **[What are contexts?](#what-are-contexts)**  
-**[How do I see more information from Peek?](#how-do-I-see-more-information-from-peek)**  
+**[Can I customize Peek for my own needs?](#im-a-developer-can-i-customize-peek-for-my-own-needs)**  
 
 ####What is Peek?
 
