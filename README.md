@@ -144,7 +144,7 @@ __Dynamic Configurations__
 
 ```smalltalk
 peekAddContextWithBlock(name, overlayClass, dynamicFiltersBlock)
-peekAddFilterWithBlock(name, evaluationBlock)
+peekAddFilterWithBlock(name, context, evaluationBlock)
 peekAddRepresentationWithBlock(name, class, valueForRepresentationBlock)
 peekSetCellClassWithBlock(cellClass, objectClass, configureCellBlock)
 ```
