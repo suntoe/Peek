@@ -98,7 +98,7 @@ __Swipe up__ with __2 fingers__ to hide the currently selected view. This is esp
 
 __Double-tap__ anywhere on the screen to present contextual information about the currently selected view. For example, a label will show information such as `font` and `textColor`, whereas an image might show information about its `size` or `contentMode`.
 
-__Swipe-down__ with __2 fingers__ in Peek to display more Peek options. Here you will see all the contexts you have included in your version of Peek and you can switch between them to focus on a specific task. By default Peek comes with the following contexts:
+__Swipe-down__ with __2 fingers__ to switch context, allowing you to focus on a specific task. By default Peek comes with the following contexts:
 
 1. Show Layout Information
 2. Filter by Font
