@@ -158,10 +158,9 @@ Read more on <a href="http://shaps.me/Peek">http://shaps.me/Peek</a>
 
 ####Thanks
 
-[The App Business][tab], Special thanks to the The App Business for supporing my project.
-[Krzysztof][krzys], thanks for some awesome ideas around macros and runtime inspection.
+Special thanks to the [The App Business][tab] for supporting my project.<br />
+[Krzysztof][krzys], thanks for some awesome ideas around macros and runtime inspection.<br />
 [Sam Dods][sam], inspired some of the assertion macros, based on Krzysztof's original concept.
-
 
 [docs]: http://no_docs_url_yet "Full Documentation"
 [shaps]: http://twitter.com/shaps "Me on Twitter"
