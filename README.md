@@ -20,6 +20,17 @@ Again I apologise for the delays but I promise it will be worth it when you see 
 
 Introducing Peek, a tool to help your designers and testers get pixel perfect results when reviewing your User Interface.
 
+### Table of Contents
+
+**[What is Peek?](#what-is-peek)**  
+**[Why use Peek](#why-use-peek)** 
+**[How do I install Peek?](#how-do-i-install-peek)**  
+**[How do I present Peek?](#how-do-i-present-peek)**  
+**[How does Peek work?](#how-does-peek-work)**  
+**[How do I see more information from Peek](#how-do-i-see-more-information-from-peek)**  
+**[What are contexts?](#what-are-contexts)**  
+**[How do I see more information from Peek?](#how-do-I-see-more-information-from-peek)**  
+
 ####What is Peek?
 
 Peek is an open source library that lets you easily and efficiently test your application against your user interface's specification guide.
