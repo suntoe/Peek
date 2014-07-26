@@ -65,7 +65,7 @@ After you've installed the codebase (either via CocoaPods or simply dragging Pee
 
 If you're running in the simulator however, the volume controls are not available, so Peek defaults to a shake gesture. You will need to write one method in your AppDelegate:
 
-```smalltalk
+```objective-c
 - (void)motionBegan:(UIEventSubtype)motion withEvent:(UIEvent *)event
 {
   [[SPXPeek sharedInstance] handleShakeGesture];
