@@ -134,7 +134,7 @@ Peek even provides convenient macros and functions to make it even easier to con
 
 __Static configurations__
 
-```smalltalk
+```objective-c
 peekAddProperty(name, class, keyPath);
 peekAddRepresentation(name, class, keyPath);
 peekAddContext(name, overlayClass, ...); // the last attribute being a list of filters
