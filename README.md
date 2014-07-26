@@ -92,7 +92,7 @@ Peek also allows you to test all supported orientations on both iPhone and iPad.
 
 Peek comes pre-packed with various gestures for presenting more information about your app.
 
-__Tap and/or drag__ around the screen to highlight the views in your user interface.
+__Tap__ and/or __drag__ around the screen to highlight the views in your user interface.
 
 __Swipe up with 2 fingers__ to hide the currently selected view. This is especially useful if that view is obscuring some other views you care about. Hiding views is on a per-session basis, so closing and reopening Peek resets all hidden views.
 
