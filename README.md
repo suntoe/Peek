@@ -154,12 +154,19 @@ peekSetCellClassWithBlock(cellClass, objectClass, configureCellBlock)
 Read more on <a href="http://shaps.me/Peek">http://shaps.me/Peek</a>
 <br />Original concept, code and app design by [@shaps][shaps]
 <br />Icon design by [@h1brd][marco]
+<br />Some [@h1brd][marco]
 
-[The App Business][tab], thanks for the support guys.
+####Thanks
+
+[The App Business][tab], Special thanks to the The App Business for supporing my project.
+[Krzysztof][krzys], thanks for some awesome ideas around macros and runtime inspection.
+[Sam Dods][sam], inspired some of the assertion macros, based on Krzysztof's original concept.
 
 
+[docs]: http://no_docs_url_yet "Full Documentation"
+[shaps]: http://twitter.com/shaps "Me on Twitter"
 
-[docs]: http://no_docs_url_yet
-[shaps]: http://twitter.com/shaps "Shaps on Twitter"
 [marco]: http://twitter.com/h1brd "Marco on Twitter"
-[tab]: http://theappbusiness.com
+[sam]: http://twitter.com/dodsios "Sam on Twitter"
+[krzys]: http://twitter.com/merowing_ "Krzysztof on Twitter"
+[tab]: http://theappbusiness.com "The App Business"
