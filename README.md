@@ -4,11 +4,21 @@
 
 <img src="peek256.png" width="128px" height="128px" />
 
+####Release Update
+
+I must apologise for the delays in Peek's release but I still have a day job ;) and unfortunately client projects pay the bills. However, I am back onboard this weekend with a full release planned as well as updates to the future of Peek.
+
+######Peek will officially release Monday 26th July.
+
+Next I will be working on some known issues, new features and improvements.
+
+Following that I have a nice little surprise coming every day this week. Short video's explaining some of Peeks features, how they work for testers and QA and how to customize Peek to your specific needs. Also please checkout this README ahead of release as its been updated.
+
+Again I apologise for the delays but I promise it will be worth it when you see all that Peek can do for you. :)
+
 #Peek
 
-
 Introducing Peek, a tool to help your designers and testers get pixel perfect results when reviewing your User Interface.
-
 
 ####What is Peek?
 
@@ -51,7 +61,7 @@ If you're running in the simulator however, the volume controls are not availabl
 }
 ````
 
-*Note: Although this code is only required if using the Simulator, you may also need to implement this method if you set Peek's `presentationGesture` property to `SPXPeekPresentationGestureShake`
+*Note: Although this code is only _required_ if using the Simulator, you will also need to implement this method if you set Peek's `presentationGesture` property to `SPXPeekPresentationGestureShake`
 
 You can also present Peek from code, allowing you to define a custom gesture or button if you prefer. See the [full documentation][docs] for implementation details.
 
@@ -69,38 +79,53 @@ Peek also allows you to test all supported orientations on both iPhone and iPad.
 
 ####How do I see more information from Peek?
 
-Double-tap anywhere on the screen to bring up more information about the currently selected view. Here peek will show you contextual information about the view you're inspecting. For example, a label will show information such as `font` and `textColor`, whereas an image might show information about its `size` or `contentMode`.
+Peek comes pre-packed with various gestures for presenting more information about your app.
 
-For quick access to color hex values, you can also tap-and-hold anywhere on the screen while Peek is active, to bring up the color loupe. Drag your finger over the screen to show HEX color values of anything under the loupe.
+__Tap and/or drag__ around the screen to highlight the views in your user interface.
 
-Finally, swipe-down with 2 fingers in Peek to display the filter options screen. Here you can toggle between filter sets to change context. For example, Peek can show you all the fonts used on the current screen, and then allow you to filter down to a specific font. This is useful for designers to determine if there's a label using the wrong font, without having to inspect each label manually.
+__Swipe up with 2 fingers__ to hide the currently selected view. This is especially useful if that view is obscuring some other views you care about. Hiding views is on a per-session basis, so closing and reopening Peek resets all hidden views.
 
-####I'm a developer. Can I add more properties or filters to Peek?
+__Double-tap__ anywhere on the screen to present contextual information about the currently selected view. For example, a label will show information such as `font` and `textColor`, whereas an image might show information about its `size` or `contentMode`.
 
-Peek was designed from the ground up to be flexible and adding properties,representations and filters really showcase this flexibility.
+__Swipe-down with 2 fingers__ in Peek to display more Peek options. Here you will see all the contexts you have included in your version of Peek and you can switch between them to focus on a specific task. By default Peek comes with the following contexts:
 
-Peek relies on a central store to persist state. This same store loads all the predefined properties, representations and filters at runtime. Filters can then be enabled/disabled by the user while using the app which are then persisted across launches.
+1. Show Layout Information
+2. Filter by Font
+3. Inspect Color Values
 
-The easiest way to learn how to add your own items to the store is to checkout `SPXPeekStoreConfiguration`
+####What are contexts?
 
-Here you can see that adding these items is a single line of code each ;)
+A context is basically a task you want to perform. For example if you wanted to create a context that shows font information in your app, you can use the 'Filter by Font' context to have Peek show you only information about text fields in your app and the fonts they are using. 
+
+Contexts have the following configurable attributes, allowing you to easily create more:
+
+1. Properties
+2. View overlay
+3. Filters
+
+####I'm a developer. Can I customize Peek for my own needs?
+
+Peek was designed from the ground up to be flexible. The following attributes are completely customizable in Peek:
+
+1. Properties
+2. Property Representations
+3. Contexts
+4. Filters
+5. View Overlays
+
+In fact many of these attributes also support dynamic configurations allowing you to inspect your UI at runtime and provide filters and properties that are completely contextual. To see an example of this, checkout `SPXConfigurations` to see how the 'Filter by Font' context is setup.
+
+Contexts rely on filters to decide what content it should present. However, filters can also be enabled/disabled by the user while using the app.
+
+Customizing Peek couldn't be simpler, in fact if you checkout `SPXPeekConfigurations` you'll have all the documenation you'll need to get started, since this is where the defaults are created ;)
+
+Peek even provides convenient macro's to make it even easier to configure:
 
 ```objc
-PeekPropertyAdd(name, Class, keyPath);
-PeekRepresentationAdd(name, Class, keyPath);
-PeekFilterAdd(name, Class, block);
+peekAddProperty(name, class, keyPath);
+peekAddRepresentation(name, class, keyPath);
+peekAddContext(name, overlayClass, ...); // the last attribute being a list of filters
 ```
-
-####Peek is hiding some views that I've customised. Can I prevent that?
-
-Peek has a robust filtering system based on filter sets and their associated filters. Peek comes with a few defaults to provide fairly comprehensive filtering out-of-the-box. These filters should apply to 99% of cases, however there could certainly be cases where you need to disable a filter that's currently applied, or even remove it completely.
-
-To disable a filter, you can do this within your app. While Peek is enabled, swipe-down with 2 fingers to display Peek's filtering options. Tap on Global Filters. Then simply locate the filter and tap on it to disable it. The checkmark icon indicates if the filter is being applied or not. Now when you return to Peek you will have access to the view.
-
-This is useful for on-demand filtering, however you may want to enable this type of view by default. To do this use the code above.
-
-By default, filtering is implicit. In order to show a view you must explicitly apply a filter for it. The first filter to return YES for a specified view wins. No more evaluation occurs. 
-
 
 ####Links
 
