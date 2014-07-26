@@ -26,7 +26,7 @@ Peek is an open source library that lets you easily and efficiently test your ap
 
 Peek can be used by designers and testers, allowing developers to spend more time on code and less time testing that fonts, colors and layout are pixel perfect.
 
-####Why use Peek
+####Why use Peek?
 
 1. Peek doesn't require any code to get started
 2. Peek is automatically disabled for release builds
