@@ -154,7 +154,6 @@ peekSetCellClassWithBlock(cellClass, objectClass, configureCellBlock)
 Read more on <a href="http://shaps.me/Peek">http://shaps.me/Peek</a>
 <br />Original concept, code and app design by [@shaps][shaps]
 <br />Icon design by [@h1brd][marco]
-<br />Some [@h1brd][marco]
 
 ####Thanks
 
