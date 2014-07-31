@@ -1,4 +1,4 @@
-<a href="https://vimeo.com/98871620"><img src="peek-vid" name="Peek on Vimeo"/>
+<a href="https://vimeo.com/98871620"><img src="peek-vid.jpg" name="Peek on Vimeo"/>
 <br />
 <br />
 
