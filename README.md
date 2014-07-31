@@ -8,7 +8,7 @@
 
 I must apologise for the delays in Peek's release but I still have a day job ;) and unfortunately client projects pay the bills. However, I am back onboard this weekend with a full release planned as well as updates to the future of Peek.
 
-######Peek will officially release Wednesday 30th July.
+######Peek will officially release ~~Wednesday 30th July~~ Sunday 3rd August.
 
 Next I will be working on some known issues, new features and improvements.
 
