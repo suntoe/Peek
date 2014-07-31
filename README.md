@@ -2,8 +2,6 @@
 <br />
 <br />
 
-<img src="peek256.png" width="128px" height="128px" />
-
 ####Release Update
 
 I must apologise for the delays in Peek's release but I still have a day job ;) and unfortunately client projects pay the bills. However, I am back onboard this weekend with a full release planned as well as updates to the future of Peek.
@@ -15,6 +13,8 @@ Next I will be working on some known issues, new features and improvements.
 Following that I have a nice little surprise coming every day this week. Short video's explaining some of Peeks features, how they work for testers and QA and how to customize Peek to your specific needs. Also please checkout this README ahead of release as its been updated.
 
 Again I apologise for the delays but I promise it will be worth it when you see all that Peek can do for you. :)
+
+<img src="peek256.png" width="128px" height="128px" />
 
 #Peek
 
