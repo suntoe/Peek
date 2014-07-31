@@ -1,4 +1,4 @@
-<a href="https://vimeo.com/98871620">Watch the teaser on Vimeo</a>
+<a href="https://vimeo.com/98871620"><img src="peek-vid" name="Peek on Vimeo"/>
 <br />
 <br />
 
